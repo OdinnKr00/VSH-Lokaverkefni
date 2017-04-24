@@ -49,5 +49,29 @@
 				</p>
 			</div>
 		</nav>
+		<form>
+			<fieldset>
+				<legned><span>Miða pöntun fyrir Sónar Rvk.</span></legend>
+				<center>		
+					<p>Nafn</p>
+						<input type="text" name="username" required="" autofocus="">
+					<p>Tölvupóstur</p>
+						<input type="email" name="email-address" required="">
+					<p>Símanúmer</p>
+						<input type="tel" name="phone-number" required="" pattern="\d{3}(?:[\-\s]?)\d{4}" title="Vinsamlegast sláðu inn sjö tölustafi">
+					<p>Hversu mikið elskaru tónlist?</p>
+						<input type="radio" name="day" value="Mikið"> Mikið 
+						<input type="radio" name="day" value="Mjög mikið"> Mjög mikið
+						<input type="radio" name="day" value="Alltof mikið"> Alltof mikið <br>
+					<p>Á hvaða degi/dögum viltu vera á?</p>
+						<input type="checkbox" name="day" value="dag1"> Dag 1 
+						<input type="checkbox" name="day" value="dag2"> Dag 2 
+						<input type="checkbox" name="day" value="dag3"> Dag 3 
+					<p>Segðu smá frá þér</p>
+					<textarea></textarea><br>	
+					<input type="submit" name="submit" value="Senda">
+				</center>
+			</fieldset>
+		</form>
 	</body>
 </html>
