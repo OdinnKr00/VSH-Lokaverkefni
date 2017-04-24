@@ -1,0 +1,13 @@
+
+aside {
+  border: 1px solid #cecfd5;
+  background: #648880;
+  background: linear-gradient(to right, #FFFE00, #E8A800, #FF7C00);
+  font-family: sans-serif;
+  }
+textarea{
+  font-family: sans-serif;
+}
+h3{
+  margin: 10px;
+}

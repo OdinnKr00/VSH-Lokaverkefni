@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tafla og Form</title>
+ <meta charset="utf-8">
+	  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<aside>
+	<center>
+		<caption><h3>Miða pöntun fyrir Sónar Rvk.</h3></caption>
+		<form>		
+			<h3>Nafn</h3>
+				<input type="text" name="username" required="" autofocus="">
+			<h3>Tölvupóstur</h3>
+				<input type="email" name="email-address" required="">
+			<h3>Símanúmer</h3>
+				<input type="tel" name="phone-number" required="" pattern="\d{3}(?:[\-\s]?)\d{4}" title="Vinsamlegast sláðu inn sjö tölustafi">
+			<h3>Hversu mikið elskaru tónlist?</h3>
+				<input type="radio" name="day" value="Mikið"> Mikið 
+				<input type="radio" name="day" value="Mjög mikið"> Mjög mikið
+				<input type="radio" name="day" value="Alltof mikið"> Alltof mikið <br>
+			<h3>Á hvaða degi/dögum viltu vera á?</h3>
+				<input type="checkbox" name="day" value="dag1"> Dag 1 
+				<input type="checkbox" name="day" value="dag2"> Dag 2 
+				<input type="checkbox" name="day" value="dag3"> Dag 3 
+
+			
+
+
+			<h3>Segðu smá frá þér</h3>
+			<textarea></textarea><br>	
+			<input type="submit" name="submit" value="Senda">
+		</form>
+	</center>
+</aside>
+
+
+
+
+</body>
+</html>
