@@ -1,0 +1,362 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Hópverkefni</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Oxygen|Slabo+27px|Anton" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Sónar Reykjavík</h1>
+		<input class="verklysing-input" type="checkbox" id="toggle">
+		<label class="verklysing-label" for="toggle"><span class="icon-question" > </span>Verkefnis Lýsing </label>
+		<nav class="verklysing-nav">
+			<div class="verklysing">
+				<h4>VSH2TÖ hópverkefni</h4>
+				<p>
+					Verkefnið felst í að hanna vefsíðu(r) um viðburð ss tónleika, keppni, listsýningu, hugbúnað, tölvuleik,<br>
+					pólitík eða það sem þér þykir fýsilegt að fjalla um. Viðburðurinn má vera hvar sem er á íslandi og setjið<br>
+					staðsetningarkort á vefsíðuna. Efnisval er frjálst, en það má ekki notast við “dummy” texta (Lorem<br>
+					Ipsum …). Vefurinn á að endurspegla þá verkkunnáttu sem þú hefur öðlast í áfanganum ásamt fyrri<br>
+					áfanga, VSH1TO.
+					Gerum ráð fyrir á ráðstefnan eða viðburðurinn sé haldin næsta sumar 2017.<br>
+					<strong>Útgáfustýring (5%): Verkstjórn og greinargerð um vinnuferlið.</strong><br>
+					Gerið grein fyrir eftirtöldum atriðum:
+					Um hvað er vefurinn?<br>
+					Hver er markhópurinn og markmið með gerð vefsins.
+					Efnisöflun<br>
+					Skoðið hvað aðrir hafa gert, safnið saman fyrirmyndum ss tenglum á áhugaverðar
+					vefsíður.<br> 
+					Það má nota texta og myndir af öðrum vefsíðum og gerið grein fyrir hvaðan
+					efnið er tilkomið í heimildaskrá.<br>
+					<strong>Tæknileg útfærsla</strong><br>
+					Útskýrið eigin lausnir ss virkni í forritun og kvikun.
+					Prófanir - https://validator.w3.org/<br>
+					Er kóðinn í lagi? Er vefurinn villulaus? (sjá Inspector console, firebug, chrome dev)<br>
+					<strong>Viðhald</strong><br>
+					Hvað má gera betur og hver geta verið næstu skref með vefinn (ókláruð virkni,
+					endurbætur o.s.frv.).<br>
+					<strong>Afurð 10%: Tæknilegar lausnir</strong><br>
+					 Viðmið (breakpoints) fyrir mismunandi skjástærðir, „mobile up“ - 37.5em, 48em, 60em, 80em.<br>
+					 Myndir í vefsíðum aðlagast mismunandi skjástærðum (notið <picture> tagið).<br>
+					 Letur og litanotkun er í samræmi við efni/þema vefsins.<br>
+					 Almenn lýsing á viðburði og sundurliðuð dagskrá í töflu.<br>
+					 SCSS/CSS kóðun í stílsíðum – aðeins ein CSS stílsíða tengd vefsíðu.<br>
+					 Kvikun – Animation (val - animation, transitions, transform)<br>
+					 Notandi getur skráð sig á fyrirlestra, atburði eða tónleika sem eru í boði (form).<br>
+					 Upplýsingar sem skráðar eru í formið eru villuprófaðar (HTML5 validation).<br>
+					 <a href="https://github.com/OdinnKr00/Vsh-Lokaverkefni" class="github icon-github"></a>
+				</p>
+			</div>
+		</nav>
+		<section>
+			<article class="col-1-2">
+				<p>
+					Vefurinn okkar er um tónlistar hátíðinna Sónar Reykjavík 
+					og er að reyna að fá fleirri sem ekki hafa heyrt um hátíðinna 
+					og líka þá sem nú þegar vita hvað Sónar er og vilja koma til að 
+					skemmta sér og njóta þess að hlusta á góða tónlist með öðrum sem 
+					hafa gaman af þeirri tónlist þú þarft ekki að vera alla daganna en 
+					þú getur keypt miða á þeim dögum sem uppáhalds tónlistamennirnir þínir koma fram
+				</p>
+			</article>
+			<article class="col-1-2">
+				<img src="myndir/sonarreykjavik.jpg" width="100%">
+			</article>
+		</section>
+		<table class="dagur1">
+			<input class="dagur1-input" type="radio" name="day" value="dag1" checked="checked"> Dagur 1 
+			<input class="dagur2-input" type="radio" name="day" value="dag2"> Dagur 2
+			<input class="dagur3-input" type="radio" name="day" value="dag3"> Dagur 3
+			<thead>
+				<tr>
+					<th scope="col">Dagur 1</th>
+					<th scope="col">SonarClub by Tuborg - Silfuberg</th>
+					<th scope="col">SonarLab - Car Park</th>
+					<th scope="col">SonarComplex by Red Bull Music Academy - Kaldalón</th>
+					<th scope="col">Harpa Façade</th>
+					<th scope="col">Outside SonarComplex</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>19:00</td>
+					<td colspan="1"></td>
+					<td colspan="1"></td>
+					<td colspan="1"></td>
+					<td colspan="1"></td>
+					<td>Horizons VR installation 19:00 - 22:00</td>
+				</tr>
+				<tr>
+					<td>20:00</td>
+					<td>Glowie 20:00 - 20:40</td>
+					<td>Terrordisco 20:00 - 21:00</td>
+					<td>AAIIEENN 20:00 - 20:35</td>
+					<td>HarpaLights 20:00 - 01:00</td>
+					<td>Horizons VR installation</td>
+				</tr>
+				<tr>
+					<td>21:00</td>
+					<td>HATARI 21:00 - 21:40</td>
+					<td>Moff & Tarkin 21:00 - 22:00</td>
+					<td>Johan Carøe 20:40 - 21:20</td>
+					<td>HarpaLights</td>
+					<td>Horizons VR installation</td>
+				</tr>
+				<tr>
+					<td>22:00</td>
+					<td>Tommy Genesis 22:00 - 22:45</td>
+					<td>Frímann 22:00 - 23:00</td>
+					<td>SiGRÚN 21:30 - 22:10</td>
+					<td>HarpaLights</td>
+					<td>Horizons VR installation</td>
+				</tr>
+				<tr>
+					<td>23:00</td>
+					<td>GKR 23:00 - 23:40</td>
+					<td>Ben Klock 23:00 - 01:00</td>
+					<td>Pan Daijing 23:05 - 23:50</td>
+					<td>HarpaLights</td>
+					<td> </td>
+				</tr>
+				<tr>
+					<td>00:00</td>
+					<td>FM Belfast 00:00 - 01:00</td>
+					<td>Ben Klock</td>
+					<td>Vatican Shadow 00:00 - 01:00</td>
+					<td>HarpaLights</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>01:00</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>HarpaLights</td>
+					<td></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<td>02:00</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tfoot>		
+		</table>
+		<table class="dagur2">
+			<thead>
+				<tr>
+					<th scope="col">Dagur 2</th>
+					<th scope="col">SonarClub by Tuborg - Silfuberg</th>
+					<th scope="col">SonarHall by LG G5 - Nordurljós</th>
+					<th scope="col">SonarLab - Car Park</th>
+					<th scope="col">SonarComplex by Red Bull Music Academy - Kaldalón</th>
+					<th scope="col">Harpa Façade</th>
+					<th scope="col">Outside SonarComplex</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>19:00</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>Horizons VR installation 19:00 - 22:00</td>
+				</tr>
+				<tr>
+					<td>20:00</td>
+					<td></td>
+					<td>Berndsen 20:20 - 21:00</td>
+					<td>TRPTYCH 20:30 - 21:30</td>
+					<td>Øfjord20:00 - 20:40</td>
+					<td>HarpaLights 20:00 - 01:00</td>
+					<td>Horizons VR installation</td>
+				</tr>
+				<tr>
+					<td>21:00</td>
+					<td>Samaris 21:00 - 21:40</td>
+					<td>Forest Swords 21:20 - 22:10</td>
+					<td>CasaNova 21:30 - 22:30</td>
+					<td>JOHN GRVY 21:35 - 22:25</td>
+					<td>HarpaLights</td>
+					<td>Horizons VR installation</td>
+				</tr>
+				<tr>
+					<td>22:00</td>
+					<td>Sturla Atlas 22:00 - 22:40</td>
+					<td>Sin Fang 22:30 - 23:20</td>
+					<td>Reynir 22:30 - 23:30</td>
+					<td>HRNNR & Smjörvi 22:35 - 23:00</td>
+					<td>HarpaLights</td>
+					<td>Horizons VR installation</td>
+				</tr>
+				<tr>
+					<td>23:00</td>
+					<td>GusGus 23:00 - 00:00</td>
+					<td>Sleigh Bells 23:45 - 00:45</td>
+					<td>Helena Hauff 23:30 - 01:00</td>
+					<td>Oddisee 23:10 - 23:55</td>
+					<td>HarpaLights</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>00:00</td>
+					<td>Moderat 00:30 - 02:00</td>
+					<td>Sleigh Bells</td>
+					<td>Helena Hauff</td>
+					<td>Sapphire Slows 00:05 - 00:50</td>
+					<td>HarpaLights</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>01:00</td>
+					<td></td>
+					<td>Emmsjé Gauti 01:00 - 02:00</td>
+					<td>Blawan b2b Exos 01:00 - 03:00</td>
+					<td></td>
+					<td>HarpaLights</td>
+					<td></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<td>02:00</td>
+				<td></td>
+				<td></td>
+				<td>Blawan b2b Exos</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tfoot>		
+		</table>
+		<table class="dagur3">
+			<thead>
+				<tr>
+					<th scope="col">Dagur 3</th>
+					<th scope="col">SonarClub by Tuborg - Silfuberg</th>
+					<th scope="col">SonarHall by LG G5 - Nordurljós</th>
+					<th scope="col">SonarLab - Car Park</th>
+					<th scope="col">SonarComplex by Red Bull Music Academy - Kaldalón</th>
+					<th scope="col">Harpa Façade</th>
+					<th scope="col">Outside SonarComplex</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>19:00</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>Horizons VR installation 19:00 - 22:00</td>
+				</tr>
+				<tr>
+					<td>20:00</td>
+					<td></td>
+					<td>sxsxsx 20:00 - 20:45</td>
+					<td></td>
+					<td>Halldór Eldjárn 20:00 - 20:30 Wesen 20:40 - 21:15</td>
+					<td>HarpaLights 20:00 - 01:00</td>
+					<td>Horizons VR installation</td>
+				</tr>
+				<tr>
+					<td>21:00</td>
+					<td>aYia 21:00 - 21:30 Dillalude 21:40 - 22:10</td>
+					<td>Shades of Reykjavik 21:00 - 21:45</td>
+					<td>KrBear 21:00 - 22:00</td>
+					<td>Auður 21:25 - 22:00</td>
+					<td>HarpaLights</td>
+					<td>Horizons VR installation</td>
+				</tr>
+				<tr>
+					<td>22:00</td>
+					<td>Kött Grá Pje 22:20 - 23:00</td>
+					<td>Alvia Islandia 22:00 - 22:40</td>
+					<td>Kerr Wilson 22:00 - 23:00</td>
+					<td>BEA1991 22:10 - 23:40h</td>
+					<td>HarpaLights</td>
+					<td>Horizons VR installation</td>
+				</tr>
+				<tr>
+					<td>23:00</td>
+					<td>De La Soul 23:15 - 00:15</td>
+					<td>sxsxsx 23:00 - 00:00</td>
+					<td>Áskell 23:00 - 00:00</td>
+					<td>Palmbomen II live 22:50 - 23:50</td>
+					<td>HarpaLights</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>00:00</td>
+					<td>Fatboy Slim 00:30 - 02:00</td>
+					<td>Aron Can 00:00 - 00:45</td>
+					<td>B.Traits 00:00 - 01:30</td>
+					<td>Marie Davidson 00:00 - 01:00</td>
+					<td>HarpaLights</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>01:00</td>
+					<td>Fatboy Slim</td>
+					<td>Giggs 01:00 - 01:50</td>
+					<td>Plútó 01:30 - 03:00</td>
+					<td></td>
+					<td>HarpaLights</td>
+					<td></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<td>02:00</td>
+				<td></td>
+				<td></td>
+				<td>Plútó</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tfoot>		
+		</table>
+		<center>	
+			<form>
+				<fieldset class="party">
+					<h3>Miða pöntun fyrir Sónar Rvk.</h3>	
+					<strong><u>Nafn: </u></strong><input type="text" name="username" required="" autofocus="">
+					<strong><u>Tölvupóstur: </u></strong><input type="email" name="email-address" required="">
+					<strong><u>Símanúmer: </u></strong><input type="tel" name="phone-number" required="" pattern="\d{3}(?:[\-\s]?)\d{4}" title="Vinsamlegast sláðu inn sjö tölustafi">
+					<strong><u>Hversu mikið elskaru tónlist?  </u></strong>
+						<input type="radio" name="day" value="Mikið"> Mikið 
+						<input type="radio" name="day" value="Mjög mikið"> Mjög mikið
+						<input type="radio" name="day" value="Alltof mikið"> Alltof mikið <br>
+					<strong><u>Á hvaða degi/dögum viltu vera á?  </u></strong>
+						<input type="checkbox" name="day" value="dag1"> Dag 1 
+						<input type="checkbox" name="day" value="dag2"> Dag 2 
+						<input type="checkbox" name="day" value="dag3"> Dag 3 
+					<p>Af hverju viltu fara á Sónar Rvk?</p>
+					<textarea></textarea><br>	
+					<input type="submit" name="submit" value="Senda">
+				</fieldset>
+			</form>
+		</center>
+		<div>
+			<img class="tone1" src="myndir/music-tone1.png">
+			<img class="tone2" src="myndir/music-tone2.png">
+		</div>
+		<div>
+			<img src="">
+		</div>
+		<nav>
+			<h5 class="tenglar">Tenglar að samfélagsmiðlum</h5>
+			<center>
+				<a href="https://www.facebook.com/SonarFestival/" class="facebook icon-facebook2"></a>
+				<a href="https://twitter.com/sonarfestival" class="twitter icon-twitter"></a>
+				<a href="https://www.youtube.com/user/SonarFestival" class="youtube icon-youtube"></a>
+				<a href="https://www.instagram.com/sonarfestival/" class="instagram icon-instagram"></a>
+			</center>
+		</nav>
+		<a href="#" class= "upp icon-home"><p class="upp-texti">UPP</p></a>
+	</body>
+</html>
