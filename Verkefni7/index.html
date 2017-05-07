@@ -39,7 +39,7 @@
 					endurbætur o.s.frv.).<br>
 					<strong>Afurð 10%: Tæknilegar lausnir</strong><br>
 					 Viðmið (breakpoints) fyrir mismunandi skjástærðir, „mobile up“ - 37.5em, 48em, 60em, 80em.<br>
-					 Myndir í vefsíðum aðlagast mismunandi skjástærðum (notið <picture> tagið).<br>
+					 Myndir í vefsíðum aðlagast mismunandi skjástærðum (notið 'picture' tagið).<br>
 					 Letur og litanotkun er í samræmi við efni/þema vefsins.<br>
 					 Almenn lýsing á viðburði og sundurliðuð dagskrá í töflu.<br>
 					 SCSS/CSS kóðun í stílsíðum – aðeins ein CSS stílsíða tengd vefsíðu.<br>
@@ -51,20 +51,21 @@
 			</div>
 		</nav>
 		<section>
-			<article class="col-1-2">
+			<article class="col-1-2 texti">
 				<p>
-					Vefurinn okkar er um tónlistar hátíðinna Sónar Reykjavík 
-					og er að reyna að fá fleirri sem ekki hafa heyrt um hátíðinna 
-					og líka þá sem nú þegar vita hvað Sónar er og vilja koma til að 
-					skemmta sér og njóta þess að hlusta á góða tónlist með öðrum sem 
-					hafa gaman af þeirri tónlist þú þarft ekki að vera alla daganna en 
-					þú getur keypt miða á þeim dögum sem uppáhalds tónlistamennirnir þínir koma fram
+					Vefurinn okkar er um tónlistar hátíðinna Sónar Reykjavík. Við erum að fræða fleiri sem ekki hafa heyrt um hátíðinna 
+					og líka hvetja bæði þau og þá sem nú þegar vita hvað Sónar er til að kaupa miða, fara á hátíðina, njóta tónlistarinnar
+					og skemmta sér með öðru fólki sem hafa gaman af þeirri tónlist. Það þarf ekki að mæta alla daganna þar sem þú getur
+					keypt miða á þeim dögum sem uppáhalds tónlistamennirnir þínir koma fram. Við vonum innilega að sem flestir mæta og
+					skemmti sér innilega<br>- <u>Ólafur Eysteinn Eysteinsson & Óðinn Kristjánsson</u>
 				</p>
 			</article>
-			<article class="col-1-2">
+			<article class="col-1-2 mynd">
 				<img src="myndir/sonarreykjavik.jpg" width="100%">
 			</article>
 		</section>
+		<br>
+		<br>
 		<table class="dagur1">
 			<input class="dagur1-input" type="radio" name="day" value="dag1" checked="checked"> Dagur 1 
 			<input class="dagur2-input" type="radio" name="day" value="dag2"> Dagur 2
@@ -319,14 +320,15 @@
 				<td></td>
 				<td></td>
 			</tfoot>		
-		</table>
-		<center>	
-			<form>
+		</table>	
+		<form>
+			<center>
 				<fieldset class="party">
 					<h3>Miða pöntun fyrir Sónar Rvk.</h3>	
 					<strong><u>Nafn: </u></strong><input type="text" name="username" required="" autofocus="">
 					<strong><u>Tölvupóstur: </u></strong><input type="email" name="email-address" required="">
 					<strong><u>Símanúmer: </u></strong><input type="tel" name="phone-number" required="" pattern="\d{3}(?:[\-\s]?)\d{4}" title="Vinsamlegast sláðu inn sjö tölustafi">
+					<br>
 					<strong><u>Hversu mikið elskaru tónlist?  </u></strong>
 						<input type="radio" name="day" value="Mikið"> Mikið 
 						<input type="radio" name="day" value="Mjög mikið"> Mjög mikið
@@ -335,19 +337,37 @@
 						<input type="checkbox" name="day" value="dag1"> Dag 1 
 						<input type="checkbox" name="day" value="dag2"> Dag 2 
 						<input type="checkbox" name="day" value="dag3"> Dag 3 
-					<p>Af hverju viltu fara á Sónar Rvk?</p>
+					<strong><u><p class="icon-pencil2"> Af hverju viltu fara á Sónar Rvk?</p></u></strong>
 					<textarea></textarea><br>	
 					<input type="submit" name="submit" value="Senda">
 				</fieldset>
-			</form>
-		</center>
-		<div>
-			<img class="tone1" src="myndir/music-tone1.png">
-			<img class="tone2" src="myndir/music-tone2.png">
-		</div>
-		<div>
-			<img src="">
-		</div>
+			</center>
+		</form>
+		<br>
+		<br>
+		<br>
+		<section class="animation">
+			<div>
+				<img class="tone1" src="myndir/music-tone1.png">
+				<img class="tone2" src="myndir/music-tone2.png">
+				<img class="tone3" src="myndir/music-tone1.png">
+				<img class="tone4" src="myndir/music-tone2.png">
+				<img class="tone5" src="myndir/music-tone1.png">
+				<img class="tone6" src="myndir/music-tone2.png">
+				<img class="tone7" src="myndir/music-tone1.png">
+				<img class="tone8" src="myndir/music-tone2.png">
+			</div>
+			<div>
+				<img class="tone9" src="myndir/music-tone1.png">
+				<img class="tone10" src="myndir/music-tone2.png">
+				<img class="tone11" src="myndir/music-tone1.png">
+				<img class="tone12" src="myndir/music-tone2.png">
+				<img class="tone13" src="myndir/music-tone1.png">
+				<img class="tone14" src="myndir/music-tone2.png">
+				<img class="tone15" src="myndir/music-tone1.png">
+				<img class="tone16" src="myndir/music-tone2.png">
+			</div>
+		</section>
 		<nav>
 			<h5 class="tenglar">Tenglar að samfélagsmiðlum</h5>
 			<center>
